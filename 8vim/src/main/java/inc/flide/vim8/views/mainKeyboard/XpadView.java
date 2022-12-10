@@ -114,7 +114,6 @@ public class XpadView extends View {
         Context context = getContext();
         SharedPreferenceHelper pref = SharedPreferenceHelper.getInstance(context);
         float spRadiusValue = pref.getInt(context.getString(R.string.pref_circle_scale_factor), 3);
-        // TODO: Store constant in .xml file (but where?)
         float radius = (spRadiusValue / 40.f * keypadDimension.getWidth()) / 2;
 
         int xOffset = (pref.getInt(context.getString(R.string.pref_circle_x_offset_key), 0)) * 26;
@@ -308,7 +307,6 @@ public class XpadView extends View {
                 coordinateX + iconSize,
                 coordinateY + iconSize);
         iconVectorDrawable.setTint(foregroundColor);
-        // TODO: define in .xml (don't know in which file)
         iconVectorDrawable.setAlpha(85);
         iconVectorDrawable.draw(canvas);
     }

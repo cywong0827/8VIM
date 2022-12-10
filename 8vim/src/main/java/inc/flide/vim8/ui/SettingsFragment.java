@@ -75,7 +75,6 @@ public class SettingsFragment extends PreferenceFragmentCompat
 
 
         if (requestCode == PICK_KEYBOARD_LAYOUT_FILE && resultCode == RESULT_OK) {
-            // TODO: Verify if the picked file is actually a valid layout file.
             final int takeFlags = Intent.FLAG_GRANT_READ_URI_PERMISSION;
             Uri selectedCustomLayoutFile = data.getData();
             getContext().getContentResolver().takePersistableUriPermission(selectedCustomLayoutFile, takeFlags);
