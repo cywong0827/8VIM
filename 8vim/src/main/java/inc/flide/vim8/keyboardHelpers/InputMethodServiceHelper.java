@@ -110,6 +110,7 @@ public final class InputMethodServiceHelper {
         }
     }
 
+    // TODO: This is where a keyboard layout file is read.
     private static void addToKeyboardActionsMapUsingInputStream(KeyboardData keyboardData, InputStream inputStream) throws Exception {
         KeyboardDataXmlParser keyboardDataXmlParser = new KeyboardDataXmlParser(inputStream);
         KeyboardData tempKeyboardData = keyboardDataXmlParser.readKeyboardData();

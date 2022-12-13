@@ -79,6 +79,7 @@ public class Circle {
         int quadrantCyclic = (int) Math.round(angleToSectorValue);
         int baseQuadrant = GeometricUtilities.getBaseQuadrant(quadrantCyclic);
 
+        // TODO: Double the quadrants
         switch (baseQuadrant) {
             case 0:
                 return FingerPosition.RIGHT;

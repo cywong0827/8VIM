@@ -353,6 +353,7 @@ public class XpadView extends View {
 
     @Override
     public boolean onTouchEvent(MotionEvent e) {
+        // TODO: This looks like the entry point, review it.
         PointF position = new PointF((int) e.getX(), (int) e.getY());
         FingerPosition currentFingerPosition = getCurrentFingerPosition(position);
         invalidate();

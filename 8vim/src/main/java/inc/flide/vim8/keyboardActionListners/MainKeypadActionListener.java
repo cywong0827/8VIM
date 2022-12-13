@@ -118,6 +118,7 @@ public class MainKeypadActionListener extends KeypadActionListener {
         isLongPressCallbackSet = false;
     }
 
+    // TODO: This is where an input key is determined.
     private void processMovementSequence(List<FingerPosition> movementSequence) {
 
         KeyboardAction keyboardAction = keyboardData.getActionMap().get(movementSequence);
