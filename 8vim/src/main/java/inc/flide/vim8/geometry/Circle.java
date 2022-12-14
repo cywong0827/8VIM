@@ -75,7 +75,7 @@ public class Circle {
      */
     public FingerPosition getSectorOfPoint(PointF p) {
         double angleDouble = getAngleInRadiansOfPointWithRespectToCentreOfCircle(p);
-        double angleToSectorValue = angleDouble / (Math.PI / 2);
+        double angleToSectorValue = angleDouble / (Math.PI / 4);
         int quadrantCyclic = (int) Math.round(angleToSectorValue);
         int baseQuadrant = GeometricUtilities.getBaseQuadrant(quadrantCyclic);
 
@@ -84,12 +84,18 @@ public class Circle {
             case 0:
                 return FingerPosition.RIGHT;
             case 1:
-                return FingerPosition.TOP;
-
+                return FingerPosition.RIGHT;
             case 2:
-                return FingerPosition.LEFT;
-
+                return FingerPosition.TOP;
             case 3:
+                return FingerPosition.TOP;
+            case 4:
+                return FingerPosition.LEFT;
+            case 5:
+                return FingerPosition.LEFT;
+            case 6:
+                return FingerPosition.BOTTOM;
+            case 7:
                 return FingerPosition.BOTTOM;
         }
         return null;

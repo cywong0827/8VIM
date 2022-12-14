@@ -13,14 +13,13 @@ public final class GeometricUtilities {
         return distanceSquare;
     }
 
-    // TODO: Double the quadrants
     public static int getBaseQuadrant(int continiousQuadrantValue) {
         int result;
         // Calculate result with modulus operator
-        result = continiousQuadrantValue % 4;
+        result = continiousQuadrantValue % 8;
         // Fix zero truncation
         if (result < 0) {
-            result += 4;
+            result += 8;
         }
         return result;
     }
