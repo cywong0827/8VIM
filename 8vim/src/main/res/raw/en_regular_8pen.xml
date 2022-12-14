@@ -1,502 +1,631 @@
 <keyboardData>
     <keyboardCharacterSet>
-        <lowerCase>nomufv!weilhkj@,tscdzg.'yabrpxq?</lowerCase>
-        <upperCase>NOMUFV!WEILHKJ@_TSCDZG-"YABRPXQ*</upperCase>
+        <!-- Missing characters: \ -->
+        <lowerCase>nomufv'weilhkj/-tscdzg[]yabrpxq;</lowerCase>
+	<upperCase>   . = `          2 4 6   ,1\3 5</upperCase>
     </keyboardCharacterSet>
     <keyboardActionMap>
         <!--{NO_TOUCH, INSIDE_CIRCLE, TOP, LEFT, BOTTOM, RIGHT}-->
+
+        <!-- Top Right Axis -->
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
             <inputString>a</inputString>
+            <inputCapsLockString>a</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>A</inputString>
             <inputCapsLockString>A</inputCapsLockString>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
             <inputString>r</inputString>
+            <inputCapsLockString>r</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>R</inputString>
             <inputCapsLockString>R</inputCapsLockString>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
             <inputString>x</inputString>
+            <inputCapsLockString>x</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>X</inputString>
             <inputCapsLockString>X</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>;</inputString>
+            <inputCapsLockString>;</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>:</inputString>
+            <inputCapsLockString>:</inputCapsLockString>
         </keyboardAction>
 
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
             <inputString>y</inputString>
+            <inputCapsLockString>y</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>Y</inputString>
             <inputCapsLockString>Y</inputCapsLockString>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
             <inputString>b</inputString>
+            <inputCapsLockString>b</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>B</inputString>
             <inputCapsLockString>B</inputCapsLockString>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
             <inputString>p</inputString>
+            <inputCapsLockString>p</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;LEFT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>P</inputString>
             <inputCapsLockString>P</inputCapsLockString>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
             <inputString>q</inputString>
+            <inputCapsLockString>q</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;LEFT;TOP;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>Q</inputString>
             <inputCapsLockString>Q</inputCapsLockString>
         </keyboardAction>
 
         <keyboardAction>
+            <keyboardActionType>INPUT_KEY</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+	    <inputKey>61</inputKey> <!-- TAB -->
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>1</inputString>
+            <inputCapsLockString>1</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>!</inputString>
+            <inputCapsLockString>!</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>3</inputString>
+            <inputCapsLockString>3</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;BOTTOM;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>#</inputString>
+            <inputCapsLockString>#</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>5</inputString>
+            <inputCapsLockString>5</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;BOTTOM;RIGHT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>%</inputString>
+            <inputCapsLockString>%</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>7</inputString>
+            <inputCapsLockString>7</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>&amp;</inputString>
+            <inputCapsLockString>&amp;</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <inputString>9</inputString>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputCapsLockString>9</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>(</inputString>
+            <inputCapsLockString>(</inputCapsLockString>
+        </keyboardAction>
+
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>,</inputString>
+            <inputCapsLockString>,</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;RIGHT;BOTTOM;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>&lt;</inputString>
+            <inputCapsLockString>&lt;</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>\</inputString>
+            <inputCapsLockString>\</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;RIGHT;BOTTOM;LEFT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>|</inputString>
+            <inputCapsLockString>|</inputCapsLockString>
+        </keyboardAction>
+
+        <!-- Top Left Axis -->
+        <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
             <inputString>s</inputString>
+            <inputCapsLockString>s</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>S</inputString>
             <inputCapsLockString>S</inputCapsLockString>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
             <inputString>d</inputString>
+            <inputCapsLockString>d</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>D</inputString>
             <inputCapsLockString>D</inputCapsLockString>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
             <inputString>g</inputString>
-            <inputCapsLockString>G</inputCapsLockString>
-        </keyboardAction>
-
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>t</inputString>
-            <inputCapsLockString>T</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>c</inputString>
-            <inputCapsLockString>C</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>z</inputString>
-            <inputCapsLockString>Z</inputCapsLockString>
-        </keyboardAction>
-
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>i</inputString>
-            <inputCapsLockString>I</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>h</inputString>
-            <inputCapsLockString>H</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>j</inputString>
-            <inputCapsLockString>J</inputCapsLockString>
-        </keyboardAction>
-
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>e</inputString>
-            <inputCapsLockString>E</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>l</inputString>
-            <inputCapsLockString>L</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>k</inputString>
-            <inputCapsLockString>K</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>o</inputString>
-            <inputCapsLockString>O</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>u</inputString>
-            <inputCapsLockString>U</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>v</inputString>
-            <inputCapsLockString>V</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>w</inputString>
-            <inputCapsLockString>W</inputCapsLockString>
-        </keyboardAction>
-
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>n</inputString>
-            <inputCapsLockString>N</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>m</inputString>
-            <inputCapsLockString>M</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>f</inputString>
-            <inputCapsLockString>F</inputCapsLockString>
-        </keyboardAction>
-
-        <!--Capital Characters-->
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>A</inputString>
-            <inputCapsLockString>a</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>R</inputString>
-            <inputCapsLockString>r</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>X</inputString>
-            <inputCapsLockString>x</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
-        </keyboardAction>
-
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>*</inputString>
-        </keyboardAction>
-
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>Y</inputString>
-            <inputCapsLockString>y</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>B</inputString>
-            <inputCapsLockString>b</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>P</inputString>
-            <inputCapsLockString>p</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>Q</inputString>
-            <inputCapsLockString>q</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
-        </keyboardAction>
-
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>S</inputString>
-            <inputCapsLockString>s</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>D</inputString>
-            <inputCapsLockString>d</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>G</inputString>
             <inputCapsLockString>g</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>G</inputString>
+            <inputCapsLockString>G</inputCapsLockString>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
             <inputString>"</inputString>
         </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>]</inputString>
+	    <inputCapsLockString>]</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;TOP;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+	    <inputString>}</inputString>
+	    <inputCapsLockString>}</inputCapsLockString>
+        </keyboardAction>
 
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>T</inputString>
+            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>t</inputString>
             <inputCapsLockString>t</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>C</inputString>
+            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>T</inputString>
+            <inputCapsLockString>T</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>c</inputString>
             <inputCapsLockString>c</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>Z</inputString>
+            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>C</inputString>
+            <inputCapsLockString>C</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>z</inputString>
             <inputCapsLockString>z</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>Z</inputString>
+            <inputCapsLockString>Z</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>[</inputString>
+            <inputCapsLockString>[</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;LEFT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+	    <inputString>{</inputString>
+	    <inputCapsLockString>{</inputCapsLockString>
         </keyboardAction>
 
         <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>-</inputString>
+            <keyboardActionType>INPUT_KEY</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
+	    <inputKey>111</inputKey> <!-- ESCAPE -->
         </keyboardAction>
-
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>I</inputString>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>2</inputString>
+            <inputCapsLockString>2</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;RIGHT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>@</inputString>
+            <inputCapsLockString>@</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>4</inputString>
+            <inputCapsLockString>4</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;RIGHT;BOTTOM;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>$</inputString>
+            <inputCapsLockString>$</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>6</inputString>
+            <inputCapsLockString>6</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;RIGHT;BOTTOM;LEFT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>^</inputString>
+            <inputCapsLockString>^</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>8</inputString>
+            <inputCapsLockString>8</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>*</inputString>
+            <inputCapsLockString>*</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>0</inputString>
+            <inputCapsLockString>0</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>)</inputString>
+            <inputCapsLockString>)</inputCapsLockString>
+        </keyboardAction>
+
+        <!-- Bottom Left Axis -->
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>i</inputString>
             <inputCapsLockString>i</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>H</inputString>
+            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>I</inputString>
+            <inputCapsLockString>I</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>h</inputString>
             <inputCapsLockString>h</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>J</inputString>
+            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>H</inputString>
+            <inputCapsLockString>H</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>j</inputString>
             <inputCapsLockString>j</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
-
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>J</inputString>
+            <inputCapsLockString>J</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>-</inputString>
+            <inputCapsLockString>-</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
             <inputString>_</inputString>
+            <inputCapsLockString>_</inputCapsLockString>
         </keyboardAction>
 
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>E</inputString>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>e</inputString>
             <inputCapsLockString>e</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>L</inputString>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>E</inputString>
+            <inputCapsLockString>E</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>l</inputString>
             <inputCapsLockString>l</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>K</inputString>
-            <inputCapsLockString>k</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>L</inputString>
+            <inputCapsLockString>L</inputCapsLockString>
         </keyboardAction>
-
-        <!-- For now let me use it to enter my email id :P -->
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>k</inputString>
+            <inputCapsLockString>k</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>K</inputString>
+            <inputCapsLockString>K</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>/</inputString>
+            <inputCapsLockString>/</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>?</inputString>
+            <inputCapsLockString>?</inputCapsLockString>
+        </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
             <inputString>flideravi@gmail.com</inputString>
         </keyboardAction>
 
+        <!-- Bottom Right Axis -->
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>O</inputString>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>o</inputString>
             <inputCapsLockString>o</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>U</inputString>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>O</inputString>
+            <inputCapsLockString>O</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>u</inputString>
             <inputCapsLockString>u</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>V</inputString>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>U</inputString>
+            <inputCapsLockString>U</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>v</inputString>
             <inputCapsLockString>v</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>W</inputString>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>V</inputString>
+            <inputCapsLockString>V</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>w</inputString>
             <inputCapsLockString>w</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>W</inputString>
+            <inputCapsLockString>W</inputCapsLockString>
+        </keyboardAction>
+
+        <keyboardAction>
+            <keyboardActionType>INPUT_KEY</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+	    <inputKey>67</inputKey> <!-- BACKSPACE -->
         </keyboardAction>
 
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>N</inputString>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>n</inputString>
             <inputCapsLockString>n</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>M</inputString>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>N</inputString>
+            <inputCapsLockString>N</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>m</inputString>
             <inputCapsLockString>m</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
-            <inputString>F</inputString>
-            <inputCapsLockString>f</inputCapsLockString>
-        <flags>
-            <flag>1</flag>
-        </flags>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>M</inputString>
+            <inputCapsLockString>M</inputCapsLockString>
         </keyboardAction>
-
-        <!-- Let me just YO-YO the position :) -->
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>f</inputString>
+            <inputCapsLockString>f</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>F</inputString>
+            <inputCapsLockString>F</inputCapsLockString>
+        </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
             <inputString>YO!! _\m/</inputString>
         </keyboardAction>
-
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>.</inputString>
-            <inputCapsLockString>-</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>,</inputString>
-            <inputCapsLockString>_</inputCapsLockString>
-        </keyboardAction>
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-            <inputString>@</inputString>
-            <inputCapsLockString>@gmail.com</inputCapsLockString>
-        </keyboardAction>
-
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
             <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>!</inputString>
-        </keyboardAction>
-
-
-        <keyboardAction>
-            <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
             <inputString>'</inputString>
-            <inputCapsLockString>"</inputCapsLockString>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>?</inputString>
-            <inputCapsLockString>*</inputCapsLockString>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;RIGHT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>"</inputString>
+        </keyboardAction>
+
+        <keyboardAction>
+            <keyboardActionType>INPUT_KEY</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+	    <inputKey>112</inputKey> <!-- DELETE -->
+        </keyboardAction>
+
+        <keyboardAction>
+            <keyboardActionType>INPUT_KEY</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+	    <inputKey>62</inputKey> <!-- SPACE -->
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
             <inputString>.</inputString>
-            <inputCapsLockString>-</inputCapsLockString>
+            <inputCapsLockString>.</inputCapsLockString>
         </keyboardAction>
         <keyboardAction>
             <keyboardActionType>INPUT_TEXT</keyboardActionType>
-            <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
-            <inputString>,</inputString>
-            <inputCapsLockString>_</inputCapsLockString>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;RIGHT;TOP;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+            <inputString>&gt;</inputString>
+            <inputCapsLockString>&gt;</inputCapsLockString>
         </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>=</inputString>
+            <inputCapsLockString>=</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;RIGHT;TOP;LEFT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
+            <inputString>+</inputString>
+            <inputCapsLockString>+</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>`</inputString>
+            <inputCapsLockString>`</inputCapsLockString>
+        </keyboardAction>
+        <keyboardAction>
+            <keyboardActionType>INPUT_TEXT</keyboardActionType>
+            <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+            <inputString>~</inputString>
+            <inputCapsLockString>~</inputCapsLockString>
+        </keyboardAction>
+
     </keyboardActionMap>
 </keyboardData>
