@@ -82,9 +82,9 @@ public class Circle {
         // TODO: Double the quadrants
         switch (baseQuadrant) {
             case 0:
-                return FingerPosition.RIGHT;
+                return FingerPosition.FOUR_O_CLOCK;
             case 1:
-                return FingerPosition.RIGHT;
+                return FingerPosition.TWO_O_CLOCK;
             case 2:
                 return FingerPosition.TOP;
             case 3:
